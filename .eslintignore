@@ -1,0 +1,4 @@
+vite.config.ts
+esbuild.js
+.eslintrc.js
+.prettierrc.js
