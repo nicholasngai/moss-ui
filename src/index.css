@@ -2,6 +2,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.error {
+  color: red;
+}
+
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
