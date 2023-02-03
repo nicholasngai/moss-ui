@@ -36,7 +36,7 @@ class MossImporter extends React.PureComponent<MossImporterProps, MossImporterSt
     });
 
     try {
-      const data = JSON.parse(text);
+      const data: MossResults = JSON.parse(text);
       if (!isMossResults(data)) {
         this.setState({
           loading: false,
